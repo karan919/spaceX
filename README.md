@@ -12,5 +12,3 @@
 4. React-router-dom
 
 
-## Lighthouse score
-
