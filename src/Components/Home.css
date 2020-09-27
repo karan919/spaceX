@@ -1,0 +1,25 @@
+.home{
+   margin: 10px;
+}
+
+h1{
+   margin: 10px;
+}
+
+h4{
+   text-align: center;
+}
+
+@media (min-width: 700px){
+   .home-box{
+      display: flex;
+   }
+   
+}
+
+@media (min-width: 1024px){
+   .home{
+      margin: 1rem;
+   }
+   
+}

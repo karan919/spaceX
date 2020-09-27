@@ -1,0 +1,80 @@
+.spacePrograms-box{
+    margin-top: 1rem;
+}
+
+.missionCard{
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.spacePrograms-box ul{
+    padding: 0px;
+}
+
+.spacePrograms-box li{
+    width: 100%;
+}
+
+.missionCard img{
+    text-align: center;
+    width: inherit;
+    background-color: #f5f4f4;
+}
+
+.mission-info p{
+    font-weight: 800;
+}
+
+.mission-name{
+    color: blue;
+}
+
+@media (min-width: 700px){
+    .spacePrograms-box{
+        margin-top: 0;
+    }
+    .flex-container{
+        margin-top: 0;
+    }
+    .missionCard{
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1024px){
+    .spacePrograms-box{
+        width: 65%;
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .spacePrograms-box li {
+        width: 42%;
+    }
+
+    .missionCard img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px){
+    .spacePrograms-box{
+        width: 75%;
+        display: inline-block;
+        margin-left: 15px;
+    }
+    .spacePrograms-box li {
+        width: 20%;
+    }
+    .missionCard img {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px){
+    .spacePrograms-box li {
+        width: 22%;
+    }
+}

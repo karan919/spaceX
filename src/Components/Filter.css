@@ -1,0 +1,74 @@
+.filter-box {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+h2,
+h3 {
+  margin: 10px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+hr {
+  width: 70%;
+}
+
+.center-title {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 20px;
+}
+
+.btn {
+  width: 40%;
+  background-color: #d4eaa7;
+  text-align: center;
+  padding: 7px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.year:hover,
+.active {
+  background-color: yellowgreen;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 700px) and (max-width: 1024px) {
+    .filter-box {
+       width: 30%;
+       display: inline-block;
+    }
+    .btn {
+        width: 30%;
+        margin: 7px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .filter-box {
+        width: 25%;
+        display: inline-block;
+        padding: 0;
+     }
+     .flex-container{
+         padding: 0;
+     }
+     .btn {
+        width: 40%;
+        margin: 7px;
+    }
+}
